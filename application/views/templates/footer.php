@@ -123,6 +123,16 @@
             "autoWidth": false,
             "responsive": true,
         });
+        $('table.datatable').DataTable({
+            "paging": true,
+            "lengthChange": true,
+            "searching": true,
+            "ordering": true,
+            "info": true,
+            "autoWidth": false,
+            "responsive": true,
+        });
+
     });
 </script>
 
